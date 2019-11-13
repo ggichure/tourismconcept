@@ -55,7 +55,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
             Column(
               children: <Widget>[
                 AspectRatio(
-                  aspectRatio: 1.2,
+                  aspectRatio: 0.7,
                   child: Image.network(
                       "https://i.etsystatic.com/17755157/r/il/33b254/2058097725/il_794xN.2058097725_nms5.jpg"),
                 ),
@@ -126,7 +126,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                   child: Row(
                                     children: <Widget>[
                                       Text(
-                                        "4.3",
+                                        "4.9",
                                         textAlign: TextAlign.left,
                                         style: TextStyle(
                                           fontWeight: FontWeight.w200,
@@ -150,7 +150,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                             duration: Duration(milliseconds: 500),
                             opacity: opacity1,
                             child: Padding(
-                              padding: EdgeInsets.all(8),
+                              padding: EdgeInsets.all(2),
                               child: Row(
                                 children: <Widget>[
                                   getTimeBoxUI("24 days", "custom order"),
@@ -328,7 +328,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
         ),
         child: Padding(
           padding: const EdgeInsets.only(
-              left: 18.0, right: 18.0, top: 12.0, bottom: 12.0),
+              left: 8.0, right: 18.0, top: 12.0, bottom: 12.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,

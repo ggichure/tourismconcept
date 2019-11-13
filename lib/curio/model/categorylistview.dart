@@ -101,7 +101,7 @@ class CategoryView extends StatelessWidget {
                 callback();
               },
               child: SizedBox(
-                width: 280,
+                width: 300,
                 child: Stack(
                   children: <Widget>[
                     Container(
@@ -248,16 +248,18 @@ class CategoryView extends StatelessWidget {
                     ),
                     Container(
                       child: Padding(
-                        padding: const EdgeInsets.only(
-                            top: 24, bottom: 24, left: 16),
+                        padding:
+                            const EdgeInsets.only(top: 0, bottom: 0, left: 16),
                         child: Row(
                           children: <Widget>[
                             ClipRRect(
                               borderRadius:
-                                  BorderRadius.all(Radius.circular(16.0)),
+                                  BorderRadius.all(Radius.circular(8.0)),
                               child: AspectRatio(
-                                  aspectRatio: 1.0,
-                                  child: Image.asset(category.imagePath)),
+                                  aspectRatio: 0.7,
+                                  child: Image.network(
+                                    category.imagePath,
+                                  )),
                             )
                           ],
                         ),

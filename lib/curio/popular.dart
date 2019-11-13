@@ -128,13 +128,13 @@ class CategoryView extends StatelessWidget {
                                         children: <Widget>[
                                           Padding(
                                             padding: const EdgeInsets.only(
-                                                top: 16, left: 16, right: 16),
+                                                top: 4, left: 4, right: 4),
                                             child: Text(
                                               category.title,
                                               textAlign: TextAlign.left,
                                               style: TextStyle(
                                                 fontWeight: FontWeight.w600,
-                                                fontSize: 16,
+                                                fontSize: 14,
                                                 letterSpacing: 0.27,
                                                 color: CurioThemeExt.darkerText,
                                               ),
@@ -143,8 +143,8 @@ class CategoryView extends StatelessWidget {
                                           Padding(
                                             padding: const EdgeInsets.only(
                                                 top: 8,
-                                                left: 16,
-                                                right: 16,
+                                                left: 8,
+                                                right: 8,
                                                 bottom: 8),
                                             child: Row(
                                               mainAxisAlignment:
@@ -159,7 +159,7 @@ class CategoryView extends StatelessWidget {
                                                   style: TextStyle(
                                                     fontWeight: FontWeight.w200,
                                                     fontSize: 12,
-                                                    letterSpacing: 0.27,
+                                                    letterSpacing: 0.2,
                                                     color: CurioThemeExt.grey,
                                                   ),
                                                 ),
@@ -227,8 +227,10 @@ class CategoryView extends StatelessWidget {
                             borderRadius:
                                 BorderRadius.all(Radius.circular(16.0)),
                             child: AspectRatio(
-                                aspectRatio: 1.28,
-                                child: Image.network(category.imagePath)),
+                                aspectRatio: 1.45,
+                                child: Image.network(
+                                  category.imagePath,
+                                )),
                           ),
                         ),
                       ),
