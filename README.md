@@ -20,7 +20,7 @@ screen shots
 
 </p>
  <video width="320" height="240" autoplay>
-  <source src="./gif.mp4" type="video/mp4">
+  <source src="https://github.com/ggichure/tourismconcept/blob/curio/sc/gif.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
 <img src="./sc/6.png" width="650" title="6"/>
