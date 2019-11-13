@@ -173,7 +173,7 @@ class CategoryView extends StatelessWidget {
                                                         style: TextStyle(
                                                           fontWeight:
                                                               FontWeight.w200,
-                                                          fontSize: 18,
+                                                          fontSize: 16,
                                                           letterSpacing: 0.27,
                                                           color: CurioThemeExt
                                                               .grey,
@@ -227,7 +227,7 @@ class CategoryView extends StatelessWidget {
                             borderRadius:
                                 BorderRadius.all(Radius.circular(16.0)),
                             child: AspectRatio(
-                                aspectRatio: 1.45,
+                                aspectRatio: 1.28,
                                 child: Image.network(
                                   category.imagePath,
                                 )),

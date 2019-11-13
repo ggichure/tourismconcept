@@ -30,7 +30,7 @@ class _CategoryListViewState extends State<CategoryListView>
     return Padding(
       padding: const EdgeInsets.only(top: 16, bottom: 16),
       child: Container(
-        height: 134,
+        height: 138,
         width: double.infinity,
         child: FutureBuilder(
           future: getData(),

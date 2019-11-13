@@ -54,7 +54,7 @@ class Category {
     Category(
       imagePath:
           'https://i.etsystatic.com/5682008/r/il/90c97a/965365592/il_794xN.965365592_ehpz.jpg',
-      title: 'Cleopatra\'s Earrings',
+      title: 'Cleopatra\'s Earrings Vintage Handmade African',
       periodW: 12,
       money: 25,
       rating: 4.8,
