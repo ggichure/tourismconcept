@@ -11,10 +11,13 @@ screen shots
 <img src="./sc/2.png" width="350" title="2"/>
 <img src="./sc/3.png" width="350" title="3"/>
 </p>
-## curio show case branch curio 
-##do not merge 
-<img src="./sc/4.png" width="350" title="4"/>
-<img src="./sc/5.png" width="350" title="5"/>
+
+## curio show case branch curio
+
+##do not merge
+
+<p><img src="./sc/4.png" width="350" title="4"/>
+<img src="./sc/5.png" width="350" title="5"/> </p>
 <img src="./sc/6.png" width="650" title="6"/>
 A few resources to get you started if this is your first Flutter project:
 
