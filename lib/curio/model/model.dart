@@ -44,9 +44,9 @@ class Category {
       imagePath:
           'https://i.etsystatic.com/17755157/r/il/33b254/2058097725/il_794xN.2058097725_nms5.jpg',
       title: 'Lion head carved Walking cane',
-      periodW: 22,
-      money: 18,
-      rating: 4.6,
+      periodW: 6,
+      money: 500,
+      rating: 4.9,
     ),
   ];
 
@@ -79,8 +79,8 @@ class Category {
       imagePath:
           'https://i.etsystatic.com/10028832/r/il/deddac/2081247992/il_794xN.2081247992_pjt0.jpg',
       title: 'Tidikelt Arrowhead',
-      periodW: 28,
-      money: 208,
+      periodW: 2,
+      money: 20,
       rating: 4.9,
     ),
   ];

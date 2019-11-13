@@ -56,7 +56,8 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
               children: <Widget>[
                 AspectRatio(
                   aspectRatio: 1.2,
-                  child: Image.asset('assets/design_course/webInterFace.png'),
+                  child: Image.network(
+                      "https://i.etsystatic.com/17755157/r/il/33b254/2058097725/il_794xN.2058097725_nms5.jpg"),
                 ),
               ],
             ),
@@ -94,7 +95,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                             padding: const EdgeInsets.only(
                                 top: 32.0, left: 18, right: 16),
                             child: Text(
-                              "Web Design\nCourse",
+                              "Lion head Walking stick",
                               textAlign: TextAlign.left,
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
@@ -112,7 +113,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  "\$28.99",
+                                  "\$500.99",
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     fontWeight: FontWeight.w200,
@@ -152,9 +153,9 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                               padding: EdgeInsets.all(8),
                               child: Row(
                                 children: <Widget>[
-                                  getTimeBoxUI("24", "Classe"),
-                                  getTimeBoxUI("2hours", "Time"),
-                                  getTimeBoxUI("24", "Seat"),
+                                  getTimeBoxUI("24 days", "custom order"),
+                                  getTimeBoxUI("1week", "Delivery"),
+                                  getTimeBoxUI("24", "premade"),
                                 ],
                               ),
                             ),
@@ -232,7 +233,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                       ),
                                       child: Center(
                                         child: Text(
-                                          "Join Course",
+                                          "add to cart",
                                           textAlign: TextAlign.left,
                                           style: TextStyle(
                                             fontWeight: FontWeight.w600,
