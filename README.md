@@ -17,12 +17,13 @@ screen shots
 ##do not merge
 
 <p><img src="./sc/4.png" width="350" title="4"/>
-<img src="./sc/5.png" width="350" title="5"/> 
- <video controls>
+<img src="./sc/5.png" width="350" title="5"/>
+
+</p>
+ <video width="320" height="240" autoplay>
   <source src="./gif.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
-</p>
 <img src="./sc/6.png" width="650" title="6"/>
 A few resources to get you started if this is your first Flutter project:
 
