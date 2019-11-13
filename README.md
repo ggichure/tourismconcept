@@ -6,7 +6,7 @@ tourism app concept
 
 screen shots
 
-<p align="center"> 
+<p align="center" style="background-color: grey"> 
 <img src="./sc/1.png" width="350" title="1"/>
 <img src="./sc/2.png" width="350" title="2"/>
 <img src="./sc/3.png" width="350" title="3"/>
