@@ -1,16 +1,10 @@
-# bon_tourismo
+# 
 
 tourism app concept
 
 ## Getting Started
 
-screen shots
 
-<p align="center" style="background-color: grey"> 
-<img src="./sc/1.png" width="350" title="1"/>
-<img src="./sc/2.png" width="350" title="2"/>
-<img src="./sc/3.png" width="350" title="3"/>
-</p>
 
 ## curio show case branch curio
 
